@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter';
+    font-family: Rubik, Arial, Helvetica, sans-serif;
     color:#8490A4;
 }
 
@@ -9,41 +9,36 @@ body {
     top: 7.00%;
 }
 
-.registration__form {
+.registration {
     position: relative;
-    width: 480px;
-    margin: 243px auto;
-    padding: 65px;
-}
-
-.form {
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border-radius: 32px;
+    width: 400px;
+    margin: auto;
+    gap: 10px;
+    margin-top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
     border: 2px solid #FFCC00;
 }
 
-.fieldset {
+.registration__fieldset {
+    margin-top: 20px;
     border: none;
 }
 
-.legend {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.registration__legend {
     font-size: 32px;
-    color: #313131;;
+    color: #313131;
+    margin-bottom: 30px;
 }
 
 .registration__input {
-    box-sizing: border-box;
-    width: 350px;
-
-    margin-top: 15px;
-
-    padding: 15px;
-
+    margin-bottom: 15px;
     border-radius: 30px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
     border: 1px solid #8490A4;
 }
 

@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8" />
   <title>CHODOO MARKET</title>
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main-1.css" />
 </head>
 
 <body>
@@ -17,27 +17,37 @@
     </svg>
   </div>
   <div class="registration">
-    <form class="form registration__form">
-      <fieldset class="fieldset registration__fieldset">
-        <legend class="legend registration__legend">Регистрация</legend>
+    <form class="registration__form">
+      <fieldset class="registration__fieldset">
+        <legend class="registration__legend">Регистрация</legend>
 
-        <input type="text" class="input registration__input registration__input--surname registration__input--active" value="Иванов" />
+        <div class="registration__input-wrapper">
+          <input type="text" class="registration__input registration__input--surname registration__input--active" value="Иванов" />
+        </div>
 
-        <input type="text" class="input registration__input registration__input--name" placeholder="Имя" />
+        <div class="registration__input-wrapper">
+          <input type="text" class="registration__input registration__input--name" placeholder="Имя" />
+        </div>
 
-        <input type="text" class="input registration__input registration__input--number" placeholder="+7" />
+        <div class="registration__input-wrapper">
+          <input type="text" class="registration__input registration__input--number" placeholder="+7" />
+        </div>
 
         <span class="registration__caption">
           Вводя номер телефона вы подтверждаете, что ознакомились с <a href="/">Политикой конфиденциальности</a> и даете
           <a href="/">Согласие на обработку персональных данных</a>
         </span>
 
-        <button type="submit" class="registration__button">Продолжить</button>
+        <div class="registration__button-wrapper">
+          <button type="submit" class="registration__button">Продолжить</button>
+        </div>
 
-        <span class="registration__authorization-text">
-          Уже есть аккаунт?
-          <a href="/">Войти</a>
-        </span>
+        <div class="registration__authorization-text-wrapper">
+          <span class="registration__authorization-text">
+            Уже есть аккаунт?
+            <a href="/">Войти</a>
+          </span>
+        </div>
       </fieldset>
     </form>
   </div>
