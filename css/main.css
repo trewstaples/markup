@@ -3,31 +3,36 @@ body {
     color:#8490A4;
 }
 
+.flower {
+    position: absolute;
+    left: 34.00%;
+    top: 7.00%;
+}
+
 .registration {
-display: flex;
-position: relative;
-width: 400px;
-margin: auto;
-gap: 10px;
-margin-top: 200px;
-padding: 40px;
-border-radius: 20px;
-background-color: white;
-border: 2px solid #FFCC00;
+    position: relative;
+    width: 400px;
+    margin: auto;
+    gap: 10px;
+    margin-top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid #FFCC00;
 }
 
-fieldset {
- margin-top: 20px;
- border: none;
+.registration__fieldset {
+    margin-top: 20px;
+    border: none;
 }
 
-fieldset > legend {
- font-size: 32px;
- color: #313131;
- margin-bottom: 30px;
+.registration__legend {
+    font-size: 32px;
+    color: #313131;
+    margin-bottom: 30px;
 }
 
-input {
+.registration__input {
     margin-bottom: 15px;
     border-radius: 30px;
     width: 350px;
@@ -37,16 +42,16 @@ input {
     border: 1px solid #8490A4;
 }
 
-.active {
+.registration__input--active {
     border: 1px solid blue;
 }
 
-.table-caption {
+.registration__caption {
     font-size: 13px;
     width: 350px;
 }
 
-.continue-button {
+.registration__button {
     width: 380px;
     height: 50px;
     color: white;
@@ -56,20 +61,14 @@ input {
     background-color:  #6666FF;
 }
 
-.question {
-    font-size: 15px;
-}
-
-.authorization-link {
+.registration__authorization-text-wrapper {
     margin-top: 10px;
 }
 
-.authorization-link a{
-    text-decoration: none;
+.registration__authorization-text {
+    font-size: 15px;
 }
 
-.flower {
-    position: absolute;
-    left: 34.00%;
-    top: 7.00%;
+.registration__authorization-text a {
+    text-decoration: none;
 }
