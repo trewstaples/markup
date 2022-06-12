@@ -17,28 +17,44 @@
     </svg>
   </div>
   <div class="registration">
-    <form class="form registration__form">
-      <fieldset class="fieldset registration__fieldset">
-        <legend class="legend registration__legend">Регистрация</legend>
+    <div class="registration__form-wrapper">
+      <form class="registration-form">
+        <fieldset class="registration-fieldset">
+          <div class="registration__legend-wrapper">
+            <legend class="registration-legend">Регистрация</legend>
+          </div>
 
-        <input type="text" class="input registration__input registration__input--surname registration__input--active" value="Иванов" />
+          <div class="registration__control">
+            <input type="text" class="form-control active" value="Иванов" />
+          </div>
 
-        <input type="text" class="input registration__input registration__input--name" placeholder="Имя" />
+          <div class="registration__control">
+            <input type="text" class="form-control" placeholder="Имя" />
+          </div>
 
-        <input type="text" class="input registration__input registration__input--number" placeholder="+7" />
+          <div class="registration__control">
+            <input type="text" class="form-control" placeholder="+7" />
+          </div>
 
-        <span class="registration__caption">
-          Вводя номер телефона вы подтверждаете, что ознакомились с <a href="/">Политикой конфиденциальности</a> и даете
-          <a href="/">Согласие на обработку персональных данных</a>
-        </span>
+          <div class="registration__caption-wrapper">
+            <span class="caption">
+              Вводя номер телефона вы подтверждаете, что ознакомились с <a href="/">Политикой конфиденциальности</a> и даете
+              <a href="/">Согласие на обработку персональных данных</a>
+            </span>
+          </div>
 
-        <button type="submit" class="registration__button">Продолжить</button>
+          <div class="registration__continue-button-wrapper">
+            <button type="submit" class="continue-button">Продолжить</button>
+          </div>
 
-        <span class="registration__authorization-text">
-          Уже есть аккаунт?
-          <a href="/">Войти</a>
-        </span>
-      </fieldset>
-    </form>
+          <div class="registration__authorization-text-wrapper">
+            <span class="authorization-text">
+              Уже есть аккаунт?
+              <a class="registration-link" href="/">Войти</a>
+            </span>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </div>
 </body>

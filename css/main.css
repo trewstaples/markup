@@ -9,25 +9,25 @@ body {
     top: 7.00%;
 }
 
-.registration__form {
+.registration-form {
+    padding: 65px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #FFCC00;
+    border-radius: 32px;
+}
+
+.registration__form-wrapper {
     position: relative;
     width: 480px;
     margin: 243px auto;
-    padding: 65px;
 }
 
-.form {
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border-radius: 32px;
-    border: 2px solid #FFCC00;
-}
-
-.fieldset {
+.registration-fieldset {
     border: none;
 }
 
-.legend {
+.registration-legend {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -35,45 +35,51 @@ body {
     color: #313131;;
 }
 
-.registration__input {
-    box-sizing: border-box;
-    width: 350px;
-
-    margin-top: 15px;
-
+.form-control {
+    width: 100%;
     padding: 15px;
-
-    border-radius: 30px;
+    box-sizing: border-box;
     border: 1px solid #8490A4;
+    border-radius: 30px;
 }
 
-.registration__input--active {
+.registration__control {
+    margin-top: 15px;
+}
+
+.form-control.active {
     border: 1px solid blue;
 }
 
-.registration__caption {
-    font-size: 13px;
-    width: 350px;
+.caption {
+    font-size: 12px;
 }
 
-.registration__button {
-    width: 380px;
-    height: 50px;
+.registration__caption-wrapper {
+    width: 347px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.continue-button {
+    width: 100%;
+    height: 51px;
+    background-color:  #6666FF;
+    border-radius: 40px;
+    border-style: none;
     color: white;
     font-size: 15px;
-    border-radius: 32px;
-    border-style: none;
-    background-color:  #6666FF;
 }
 
-.registration__authorization-text-wrapper {
-    margin-top: 10px;
+.registration__continue-button-wrapper {
+    margin-bottom: 16px;
 }
 
 .registration__authorization-text {
-    font-size: 15px;
+    margin-top: 10px;
 }
 
-.registration__authorization-text a {
+.registration-link {
     text-decoration: none;
 }
