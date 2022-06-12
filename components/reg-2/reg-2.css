@@ -1,59 +1,6 @@
 body {
-    font-family: 'Roboto', 'Arial', 'Helvetica';
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.registration {
-position: relative;
-width: 380px;
-margin: auto;
-margin-top: 304px;
-padding: 65px;
-border-radius: 32px;
-background-color: white;
-border: 2px solid #FFCC00;
-}
-
-fieldset {
- border: none;
-}
-
-fieldset > legend {
- font-size: 32px;
- font-weight: 700;
- color: #313131;
- margin-bottom: 16px;
-}
-
-.code-caption {
-width: 326px;
-}
-
-input {
-    margin-bottom: 15px;
-    width: 350px;
-    border-radius: 40px;
-    padding: 15px;
-    border: 1px solid  #ADADAD;
-}
-
-input::placeholder,
-.re-request {
-    font-size: 14px;
-    line-height: 150%;
-    color: #ADADAD
-}
-
-.continue-button {
-    width: 380px;
-    height: 51px;
-    color: white;
-    font-size: 16px;
-    border-radius: 32px;
-    border-style: none;
-    background-color:  #6666FF;
-    margin-bottom: 16px;
+    font-family: 'Inter';
+    color:#8490A4;
 }
 
 .picture {
@@ -61,4 +8,84 @@ input::placeholder,
     left: 57.00%; 
     top: 40.00%;
     z-index: -1;
+}
+
+.registration__form-wrapper {
+    position: relative;
+    width: 480px;
+    height: 416px;
+    margin: 243px auto;
+}
+
+.registration-form {
+    padding: 65px;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #FFCC00;
+    border-radius: 32px;
+}
+
+.registration-fieldset {
+    border: none;
+}
+
+.registration-legend {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #313131;;
+}
+
+.code-request {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323B4B;
+} 
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #8490A4;
+    border-radius: 30px;
+}
+
+.registration__control {
+    margin-top: 15px;
+}
+
+.form-control.active {
+    border: 1px solid blue;
+}
+
+.continue-button {
+    width: 100%;
+    height: 51px;
+    background-color:  #6666FF;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+.registration__continue-button-wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.registration__caption-wrapper {
+    width: 347px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }

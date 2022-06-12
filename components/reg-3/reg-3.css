@@ -1,0 +1,104 @@
+body {
+    font-family: 'Inter';
+    color:#8490A4;
+}
+
+.picture {
+    position: absolute;
+    left: 57.00%; 
+    top: 40.00%;
+    z-index: -1;
+}
+
+.registration__form-wrapper {
+    position: relative;
+    width: 480px;
+    height: 483px;
+    margin: 243px auto;
+}
+
+.registration-form {
+    width: 100%;
+    height: 100%;
+    padding: 65px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #FFCC00;
+    border-radius: 32px;
+}
+
+.registration-fieldset {
+    border: none;
+}
+
+.registration-legend {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #313131;;
+}
+
+.code-request {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #323B4B;
+} 
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #8490A4;
+    border-radius: 30px;
+}
+
+.registration__control {
+    margin-top: 15px;
+}
+
+.form-control.active {
+    border: 1px solid blue;
+}
+
+.continue-button,
+.sms-button {
+    width: 100%;
+    height: 51px;
+    background-color:  #6666FF;
+    border-radius: 40px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+.sms-button {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+    background-color: #FFFFFF;
+    border: 2px solid #6666FF;
+    color: #313131;
+
+}
+
+.registration__continue-button-wrapper {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.registration__caption-wrapper {
+    width: 247px;
+    height: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
